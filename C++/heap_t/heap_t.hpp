@@ -43,6 +43,8 @@ class heap_t
         ~heap()
         {
             delete head;
+            
+            head = NULL;
         }
 };
 
